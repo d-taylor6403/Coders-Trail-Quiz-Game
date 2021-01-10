@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    <title>Coders-Trail</title>
+</head>
+
+<body>
+    <!--Page Header-->
+    <header>
+        <h1 class="main-title" href="/">Where in the world is Coder San Diego?</h1>
+        <h2 class="high-score">High Score: </h2>
+        <h2 class="timer"></h2>
+    </header>
+
+    <div class="wrapper">
+        <!--Game Intro-->
+        <div class="game-intro" id="intro">
+            <h2>Welcome Coder! Enter your name to get started:</h2>
+            <form id="task-form">
+                <div class="form-group">
+                  <input type="text" name="player-name" placeholder="Enter Player Name" />
+                </div>
+                <div class="form-group">
+                  <button class="btn" id="save-task" type="submit">Stamp My Passport</button>
+                </div>
+              </form>
+          
+        </div>
+
+        <!--Main Content-->
+        <main class="page-content display">
+            <div class="game-greeting" id="start">
+                <h3 class="player-greeting" id="player-greeting"></h3>
+                <p>Coder San Diego has disappeared with your copy of VS Code. To retrieve it, follow her path around the world answering
+                coding questions along the way to reveal her next location. Finish all the questions with the high score to beat Coder San Diego to her final destination and alert the authorities. Click the button below for your first challenge.
+                </p>
+                <button type="submit" class="start-game">The Chase is On!</button>
+            </div>
+        </main>
+
+    </div>
+
+
+
+
+    <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>
